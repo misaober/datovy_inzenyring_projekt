@@ -14,7 +14,8 @@ flag_prolongation,
 flag_send_email,
 contract_status
 from `active-cove-455414-g4.L1.L1_contract` 
-WHERE registred_date IS NOT NULL;
+WHERE registred_date IS NOT NULL
+;
 
 --l2_invoice
 CREATE OR REPLACE VIEW `active-cove-455414-g4.L2.L2_invoice` AS

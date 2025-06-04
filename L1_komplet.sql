@@ -147,4 +147,5 @@ registration_end_reason,
 flag_prolongation,
 flag_send_inv_email  as flag_send_email,
 contract_status as contract_status
-from `active-cove-455414-g4.L0_crm.contract` ;
+from `active-cove-455414-g4.L0_crm.contract` 
+;

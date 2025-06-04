@@ -47,6 +47,7 @@ LEFT JOIN `active-cove-455414-g4.L2.L2_product` L2_product ON
 L2_product_purchase.product_id = L2_product.product_id
 ;
 
+
 -- L3 invoice
 CREATE OR REPLACE VIEW `active-cove-455414-g4.L3_snowflake.L3_invoice` AS SELECT
 L2_invoice.invoice_id
